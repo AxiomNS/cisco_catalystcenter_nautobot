@@ -15,8 +15,10 @@ PACKAGE_KEYWORDS = [
     "dnacenter",
     "python",
     "api",
+    "catalystcenter",
+    "catalsyt",
     "sdk",
-    "netbox",
+    "nautobotx",
 ]
 
 setup(
@@ -25,9 +27,9 @@ setup(
     description="Cisco DNA Center Integration with NetBox",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/robertcsapo/ciscodnacnetbox",
-    author="Robert Csapo",
-    author_email="rcsapo@cisco.com",
+    url="https://github.com/AxiomNS/cisco_catalystcenter_nautobot",
+    author="Chris Preston",
+    author_email="Chris.Preston@axiomns.com",
     license="CISCO SAMPLE CODE LICENSE",
     install_requires=requirements,
     packages=find_packages(exclude=["img", "dev"]),
