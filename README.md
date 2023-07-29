@@ -1,26 +1,22 @@
-# ciscodnacnetbox
+# ciscocatalyustnautobot
 
-![PyPI - Downloads](https://img.shields.io/pypi/dm/ciscodnacnetbox)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/ciscodnacnetbox)
-![PyPI](https://img.shields.io/pypi/v/ciscodnacnetbox)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/cisco_catalystcenternautobot)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/cisco_catalystcenternautobot)
+![PyPI](https://img.shields.io/pypi/v/cisco_catalystcenternautobot)
 
-*Cisco DNA Center Integration with NetBox*
+*Cisco Catalyst Center Integration with nautobot*
 
 ---
 
-```ciscodnacnetbox``` is a NetBox Plugin for Cisco DNA Center.  
-It uses the Cisco DNA Center Platform APIs to sync data.
+```cisco_catalystcenternautobot``` is a nautobot Plugin for Cisco DNA Center.  
+It uses the Cisco Catalyst Center Platform APIs to sync data.
 
 ## Prerequisites
 - Cisco DNA Center
-    - Supported release: 1.3.3+
-- NetBox
-    - Supported release: 3.2
-        - version ciscodnacnetbox 3.2.1
-    - Supported release: 3.0
-        - version ciscodnacnetbox 3.0.3
-    - Supported release: 2.10
-        - version ciscodnacnetbox 1.0.1
+    - Supported release: 2.3.5+
+- nautobot
+    - Supported release: 1.5
+        - version cisco_catalystcenternautobot 3.2.1
 - Python
   - Version: 3.3+
 
@@ -38,40 +34,40 @@ It uses the Cisco DNA Center Platform APIs to sync data.
 ### Sync  
 ![](./img/task.png)  
 ![](./img/sync.png)
-### NetBox Inventory
+### nautobot Inventory
 ![](./img/sites.png)  
 ![](./img/devices.png)
 
 ## Getting Started
 
 - Install the plugin from PyPi
-    - ```pip install ciscodnacnetbox```
+    - ```pip install cisco_catalystcenternautobot```
 
-- Enable the plugin in ```configuration.py``` of NetBox
+- Enable the plugin in ```configuration.py``` of nautobot
     ```
     PLUGINS = [
-        'ciscodnacnetbox',
+        'cisco_catalystcenternautobot',
     ]
     ```
-(More details at https://netbox.readthedocs.io/en/stable/plugins/)
+(More details at https://nautobot.readthedocs.io/en/stable/plugins/)
 
-If using Docker with NetBox, follow instructions on https://github.com/netbox-community/netbox-docker/wiki/Using-Netbox-Plugins
+If using Docker with nautobot, follow instructions on https://github.com/nautobot-community/nautobot-docker/wiki/Using-nautobot-Plugins
 
-## Sync your data from Cisco DNA Center to NetBox
+## Sync your data from Cisco Catalyst Center to nautobot
 
-* Add your Cisco DNA Center(s) in Settings at the ciscodnacnetbox plugin
+* Add your Cisco DNA Center(s) in Settings at the cisco_catalystcenternautobot plugin
 * Check status dashboard that API calls are OK towards your Cisco DNA Center (refresh if being cached)
-* Use the buttons on the Dashboard to sync (Sites is mandatory for Devices to be assigned in Netbox)
+* Use the buttons on the Dashboard to sync (Sites is mandatory for Devices to be assigned in nautobot)
 
 ## Technologies & Frameworks Used
 
 **Cisco Products & Services:**
 
-- [Cisco DNA Center](https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview)
+- [Cisco Catalyst Center](https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview)
 
 **Third-Party Products & Services:**
 
-- [NetBox](https://github.com/netbox-community/netbox)
+- [nautobot](https://github.com/nautobot-community/nautobot)
 
 **Tools & Frameworks:**
 
@@ -80,7 +76,7 @@ If using Docker with NetBox, follow instructions on https://github.com/netbox-co
 
 ## Authors & Maintainers
 
-- Robert Csapo <rcsapo@cisco.com>
+
 
 ## License
 
