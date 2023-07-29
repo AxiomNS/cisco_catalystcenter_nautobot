@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
                 )),
             ],
             options={
-                "app_label": "ciscodnacnetbox",
+                "app_label": "ciscocatalystcenternautobot",
                 "ordering": ["hostname"],
             },
         ),
