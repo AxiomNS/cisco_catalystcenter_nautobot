@@ -2,10 +2,10 @@ from extras.plugins import PluginConfig
 from .metadata import App
 
 
-class CiscoDNACenterConfig(PluginConfig):
+class CiscoCatalystCenterConfig(PluginConfig):
     version = App._VERSION_
     name = App._NAME_
-    verbose_name = "Cisco DNA Center Sync Plugin"
+    verbose_name = "Cisco Catalyst Center Sync Plugin"
     description = App._DESC_
     author = App._AUTHOR_
     author_email = App._EMAIL_
@@ -15,4 +15,4 @@ class CiscoDNACenterConfig(PluginConfig):
     caching_config = {}
 
 
-config = CiscoDNACenterConfig
+config = CiscoCatalystCenterConfig
