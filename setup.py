@@ -27,7 +27,7 @@ setup(
     description="Cisco Catalyst Center Integration with Nautobot",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/robertcsapo/ciscocatalystnautobot",
+    url="https://github.com/AxiomNS/cisco_catalystcenter_nautobot",
     author="Chris Preston",
     author_email="chris.preston@axiomns.com",
     license="CISCO SAMPLE CODE LICENSE",
